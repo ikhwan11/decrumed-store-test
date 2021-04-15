@@ -38,9 +38,7 @@
                         <p>
                             {{$makanan->keterangan}}
                         </p>
-                        <p>
-                            <a href="" class="btn btn-default btn-warning">Pesan</a>
-                        </p>
+
                     </div>
                 </div>
             </div>

@@ -109,11 +109,11 @@
                 @foreach($makanan as $menu)
                 <div class="col-lg-6 menu-item">
                     <div class="menu-content">
-                        <a href="/makanan/{{$menu->id}}">{{$menu->nama_makanan}}</a><span>Rp {{number_format($menu->harga, 2, ',', '.')}}</span>
+                        <a href="/makanan/{{$menu->id}}" title="klik untuk detail">{{$menu->nama_makanan}}</a><span>Rp {{number_format($menu->harga, 2, ',', '.')}}</span>
                     </div>
-                    <div class="menu-ingredients">
-                        {{$menu->keterangan}}
-                    </div>
+                    <p>
+                        <a href="" class="badge bg-warning text-white">Pesan makanan</a>
+                    </p>
                 </div>
                 @endforeach
             </div>
